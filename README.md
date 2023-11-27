@@ -1,5 +1,6 @@
 # System Design Resources
 These are the best resources for System Design on the Internet.
+Source : https://interviewready.io/blog/white-papers-worth-reading-for-software-engineers
 
 # Table of Contents
 
