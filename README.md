@@ -65,7 +65,6 @@ Source : https://interviewready.io/blog/white-papers-worth-reading-for-software-
 ## Intra-Service Messaging
 - [What is a message queue](https://www.cloudamqp.com/blog/what-is-message-queuing.html)
 - [AirBnb Idempotency](https://medium.com/airbnb-engineering/avoiding-double-payments-in-a-distributed-payments-system-2981f6b070bb)
-- [Nginx Service Mesh](https://www.nginx.com/learn/service-mesh/)
 - [Meta Async Task Computing](https://engineering.fb.com/2023/01/31/production-engineering/meta-asynchronous-computing/)
 
 ## Message Queue Antipattern
@@ -79,7 +78,8 @@ Source : https://interviewready.io/blog/white-papers-worth-reading-for-software-
 - [Kubernetes Service Mesh](https://akomljen.com/kubernetes-service-mesh/)
 - [Kubernetes Sidecar](https://www.weave.works/blog/introduction-to-service-meshes-on-kubernetes-and-progressive-delivery)
 - [Service Mesh](https://www.weave.works/blog/introduction-to-service-meshes-on-kubernetes-and-progressive-delivery)
-- [NginX Service Mesh](https://www.nginx.com/learn/service-mesh/)
+- [NginX Service Mesh](https://docs.nginx.com/nginx-service-mesh/about/what-is-nsm/)
+- [Data Plane and Control Plane](https://blog.envoyproxy.io/service-mesh-data-plane-vs-control-plane-2774e720f7fc)
 
 ##
 ## Practical System Design
@@ -136,6 +136,7 @@ Source : https://interviewready.io/blog/white-papers-worth-reading-for-software-
 ## Google Docs
 - [Operational Transform](http://www.codecommit.com/blog/java/understanding-and-applying-operational-transformation)
 - [Google Docs](https://www.youtube.com/watch?v=uOFzWZrsPV0&list=PLX)
+- [Lumiere](https://www.arxiv.org/abs/2401.12945)
 
 
 ## 
@@ -169,6 +170,7 @@ Source : https://interviewready.io/blog/white-papers-worth-reading-for-software-
 - [Database replication](https://dev.mysql.com/doc/refman/8.0/en/replication.html)
 - [Netflix Data replication - Change Data Capture](https://netflixtechblog.com/dblog-a-generic-change-data-capture-framework-69351fb9099b)
 - [LinkedIn Logging Usecases](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+- [Uber Trillions of indexes in LedgerStore](https://www.uber.com/en-IN/blog/how-ledgerstore-supports-trillions-of-indexes)
 
 ##
 ## Containers and Docker
@@ -227,9 +229,11 @@ Source : https://interviewready.io/blog/white-papers-worth-reading-for-software-
 ## Load Balancing
 
 - [Load Balancer with Sticky Sessions](https://stackoverflow.com/questions/10494431/sticky-and-non-sticky-sessions)
-- [Citrix what is load balancing](https://www.citrix.com/en-in/solutions/app-delivery-and-security/load-balancing/what-is-load-balancing.html)
+- [NetScaler what is load balancing](https://www.netscaler.com/articles/what-is-load-balancing)
 - [Nginx Load Balancing](https://www.nginx.com/resources/glossary/load-balancing/)
 - [Consistent hashing](https://michaelnielsen.org/blog/consistent-hashing/)
+- [Minimizing connection churn](https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598#5e4d)
+- [Google Subsetting Algorithm](https://queue.acm.org/detail.cfm?id=3570937)
 
 ##
 ## Alerts and Anomaly Detection
@@ -263,6 +267,7 @@ Source : https://interviewready.io/blog/white-papers-worth-reading-for-software-
 - [Netflix Multi-Region Availability](https://netflixtechblog.com/active-active-for-multi-regional-resiliency-c47719f6685b)
 - [Oracle Single Points of failure](https://docs.oracle.com/cd/E19693-01/819-0992/fjdch/index.html)
 - [DNS single point of failure 2004](http://www.tenereillo.com/GSLBPageOfShame.htm)
+- [DNS traffic management by Shopify](https://shopify.engineering/introduction-dns-traffic-management)
 - [Sharding](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6)
 
 ##
@@ -291,6 +296,7 @@ Source : https://interviewready.io/blog/white-papers-worth-reading-for-software-
 - [Caching](http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html)
 - [Microsoft Caching Guide](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn589802(v%3dpandp.10))
 - [Caching patterns](https://hazelcast.com/blog/a-hitchhikers-guide-to-caching-patterns/)
+- [Uber's Integrated Cache for 40M RPS](https://www.uber.com/en-IN/blog/how-uber-serves-over-40-million-reads-per-second-using-an-integrated-cache)
 
 ##
 ## Distributed consensus
@@ -313,10 +319,13 @@ Source : https://interviewready.io/blog/white-papers-worth-reading-for-software-
 ## Testing Distributed Systems
 
 - [Deterministic Testing](https://www.youtube.com/watch?v=4fFDFbi3toc)
+- [TLA+ by Leslie Lamport](https://lamport.azurewebsites.net/tla/tla.html)
+- [Jepsen](https://jenpsen.io)
 
 ##
 ## System Design Resources
 
-- [Designing Data Intensive Applications Book](https://amzn.to/3SyNAOy)
+- [Designing Data-Intensive Applications Book](https://amzn.to/3SyNAOy)
 - [WhitePapers](https://interviewready.io/blog/white-papers-worth-reading-for-software-engineers)
 - [InterviewReady Videos](https://interviewready.io?source=github)
+- [System Design Online Judge](https://interviewready.io/question-list/system-design-judge)
